@@ -33,8 +33,6 @@ https://www.linkedin.com/in/harshil-c/
 
 ## 📊 Language and Technology Tracker
 
-Here’s a breakdown of the languages, frameworks, and technologies I frequently use across my projects:
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=QHarshil&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 - **Machine Learning**: PyTorch, Vision Transformers, Scikit-Learn, NumPy, Pandas
@@ -43,4 +41,3 @@ Here’s a breakdown of the languages, frameworks, and technologies I frequently
 - **Databases**: PostgreSQL
 - **Visualization**: Matplotlib, Seaborn
 
-Thank you for checking out my projects! Feel free to explore further or reach out for collaboration. Happy coding! 🚀
