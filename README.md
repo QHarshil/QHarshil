@@ -1,21 +1,31 @@
-# Hey, I'm Harshil
+# 👋 Hey, I'm Harshil
 
-I'm a developer focused on backend, distributed systems, cloud, AI (NLP, computer vision), and quantitative analysis.
+I'm a software engineer passionate about building scalable backend systems, AI-integrated services, and product-driven platforms. My focus areas include backend architecture, distributed systems, cloud-native development, applied machine learning (LLMs, CV), and quantitative optimization.
 
-**LinkedIn:** [Harshil on LinkedIn](https://www.linkedin.com/in/harshil-c/)
+🔗 **LinkedIn**: [linkedin.com/in/harshil-c](https://www.linkedin.com/in/harshil-c/)  
+🌐 **Portfolio**: [qharshil.ca](https://qharshil.ca)
 
-## 📊 Language and Technology Tracker
+---
+
+## 🚀 Featured Projects
+
+- **[SemanticSearchX](https://github.com/QHarshil/SemanticSearch-Java.git)** – AI-powered semantic search API using OpenAI embeddings, Elasticsearch, and Redis, with a Spring Boot backend and React UI  
+- **[TaskRouterX](https://github.com/QHarshil/TaskRouterX)** – Real-time scheduling engine with plug-in algorithms (FIFO, greedy, ML), built with FastAPI, Redis Streams, and PostgreSQL  
+- **[FeatureFlagX](https://github.com/QHarshil/FeatureFlagX)** – High-performance feature flag and A/B testing platform with Java API and SDKs in Java, Python, and TypeScript
+
+---
+
+## 🧰 Technologies I Work With
+
+- **Languages**: Java, Python, C++, TypeScript, Go, SQL  
+- **Backend**: Spring Boot, Nest.js, Express.js, FastAPI, Flask  
+- **Cloud & Systems**: AWS (Lambda, ECS, S3, DynamoDB), GCP, Kubernetes, Docker, CI/CD (GitHub Actions, Jenkins), Grafana, Prometheus  
+- **AI/ML**: PyTorch, HuggingFace, Transformers (BERT, GPT, Swin), YOLOv5, Mask R-CNN, TensorFlow Serving, ONNX, OpenCV  
+- **Data & Analysis**: Pandas, NumPy, XGBoost, Apache Spark, Databricks  
+- **Databases & APIs**: PostgreSQL, Redis, MongoDB, MySQL, REST, GraphQL, WebSockets
+
+---
+
+## 📊 Language Usage Tracker
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=QHarshil&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-- **Programming Languages**: Java, Python, C/C++, JavaScript, TypeScript, Go, SQL
-
-- **Backend Development**: Spring Boot, Nest.js (Node.js), Express.js, FastAPI, Flask
-
-- **Distributed Systems & Cloud**: AWS (Lambda, S3, ECS, DynamoDB), GCP, Kubernetes, Docker, GitHub Actions, Jenkins, CI/CD, Grafana, Prometheus
-
-- **Artificial Intelligence & Machine Learning**: PyTorch, Scikit-learn, Transformers (BERT, GPT, Swin), YOLOv5, Mask R-CNN, OpenCV, LSTM, HuggingFace, TensorFlow Serving, ONNX
-
-- **Quantitative Analysis & Data Engineering**: XGBoost, Pandas, NumPy, Matplotlib, Apache Spark, Databricks
-
-- **Databases & APIs**: PostgreSQL, MySQL, Redis, MongoDB, RESTful APIs, GraphQL, WebSockets
