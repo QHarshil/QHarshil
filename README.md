@@ -9,7 +9,8 @@ I'm a software engineer passionate about building scalable backend systems, AI-i
 
 ## 🚀 Featured Projects
 
-- **[FeatureFlagX](https://github.com/QHarshil/FeatureFlagX)** – high-performance feature flag service built with Java and Spring Boot. It provides a centralized platform for managing application features, enabling safe rollouts, A/B testing, and dynamic configuration                                                                         changes without requiring application redeployments. 
+- **[FeatureFlagX](https://github.com/QHarshil/FeatureFlagX)** – High-performance feature flag service built with Java and Spring Boot. It provides a centralized platform for managing application features, enabling safe rollouts, A/B testing, and dynamic configuration                                                                         changes without requiring application redeployments.
+- **[Commerce Services](https://github.com/QHarshil/Commerce-Services.git)** - A modular e-commerce backend with services for checkout, inventory, orders, and payments. Uses Spring Boot, PostgreSQL, Redis, and Kafka for inventory events. This project emphasizes correctness, low latency, and operability on a developer laptop with Docker. A minimal frontend in html and javascript to visaluze the backedn APIs.
 - **[SemanticSearchX](https://github.com/QHarshil/SemanticSearch-Java.git)** – AI-powered semantic search API using OpenAI embeddings, Elasticsearch, and Redis, with a Spring Boot backend and React UI  
 - **[TaskRouterX](https://github.com/QHarshil/TaskRouterX)** – Real-time scheduling engine with plug-in algorithms (FIFO, greedy, ML), built with FastAPI, Redis Streams, and PostgreSQL  
 
