@@ -1,32 +1,61 @@
-# 👋 Hey, I'm Harshil
+# 🧠 Harshil Chudasama
 
-I'm a software engineer passionate about building scalable backend systems, AI-integrated services, and product-driven platforms. My focus areas include backend architecture, distributed systems, cloud-native development, applied machine learning (LLMs, CV), and quantitative optimization.
+Building resilient backend platforms and AI-powered products that balance performance, reliability, and user impact.
+🎓 MSCS (AI/ML)
+💡 At the intersection of backend infrastructure, ML systems, and product innovation.
 
-🔗 **LinkedIn**: [linkedin.com/in/harshil-c](https://www.linkedin.com/in/harshil-c/)  
-🌐 **Portfolio**: [qharshil.ca](https://qharshil.ca)
+- **Portfolio**: [qharshil.ca](https://qharshil.ca)
 
----
+## Focus Areas
+- **System design & distributed systems**: data pipelines with strong SLAs (p95/p99, availability).
+- **ML platforms, inference, and search infra**: ONNX/Core ML pipelines, embeddings, hybrid retrieval.
+- **Platform/DX**: feature flags, rollout safety, observability used to ship faster.
+- **Optimization and performance**: profiling, caching, batching, async/queueing, backpressure.
+- **Full-stack product engineering** when it drives user impact (TypeScript/React).
 
-## 🚀 Featured Projects
+## Areas I Care About
+- **Idempotency** across flows so retries are safe and predictable.
+- **Retries & circuit breakers** tuned for graceful degradation under failure.
+- **Backpressure** patterns that shield critical services from overload.
+- **Consistency models** aligned with business semantics and user trust.
+- **Cost vs. performance trade-offs** informed by observability and load tests.
 
-- **[FeatureFlagX](https://github.com/QHarshil/FeatureFlagX)** – High-performance feature flag service built with Java and Spring Boot. It provides a centralized platform for managing application features, enabling safe rollouts, A/B testing, and dynamic configuration                                                                         changes without requiring application redeployments.
-- **[Commerce Services](https://github.com/QHarshil/Commerce-Services.git)** - A modular e-commerce backend with services for checkout, inventory, orders, and payments. Uses Spring Boot, PostgreSQL, Redis, and Kafka for inventory events. This project emphasizes correctness, low latency, and operability on a developer laptop with Docker. A minimal frontend in html and javascript to visaluze the backedn APIs.
-- **[SemanticSearchX](https://github.com/QHarshil/SemanticSearch-Java.git)** – AI-powered semantic search API using OpenAI embeddings, Elasticsearch, and Redis, with a Spring Boot backend and React UI  
-- **[TaskRouterX](https://github.com/QHarshil/TaskRouterX)** – Real-time scheduling engine with plug-in algorithms (FIFO, greedy, ML), built with FastAPI, Redis Streams, and PostgreSQL  
+## Featured Projects
+- **Full-Stack CRM - Event and Donor Management** | `NestJS`, `React`, `TypeORM`, `Socket.IO`, `PostgreSQL`: Donor operations suite with multi-criteria matching, real-time fundraising dashboards, role-aware access, and compliance-grade audit logging that trimmed vetting time **40%**.
+- **Commerce Services** | `Spring Boot`, `Kafka`, `Redis`, `Kubernetes`: Transactional microservices with outbox/SAGA patterns; checkout **p95 under 300 ms** and **zero-downtime** deploys across REST and gRPC.
+- **FeatureFlagX** | `Java`, `Spring Boot`, `PostgreSQL`, `Redis`: Flag evaluations **under 10 ms** with SDKs for Java/Python/TypeScript; rollout targeting, kill switches, audit trails, health and metrics endpoints.
+- **TaskRouterX** | `FastAPI`, `Python`, `SQLite`: **Cost-aware task routing** with pluggable schedulers, live dashboard, synthetic load generator, and pytest coverage.
 
----
+## Wins & Highlights
+- **IMC Prosperity 2 Global Trading Competition** - Ranked **87/13,500**; **12th in Canada**.
+- **Microsoft x Qualcomm On-Device AI Hackathon** - **1st place** for a Snapdragon-powered wheelchair navigation assistant (`YOLOv8`, `ONNX`, `Grok LLM`).
+- **Graduate TA** - Led algorithms and data structures labs for 100+ students; coached debugging and complexity thinking.
 
-## 🧰 Technologies I Work With
+## Core Toolkit
+- **Languages**: Java, Python, TypeScript, JavaScript, SQL, C++.
+- **Backend & Data**: Spring Boot, FastAPI, Flask, NestJS, Express, PostgreSQL, MySQL, Redis, MongoDB, Kafka, RabbitMQ, Elasticsearch.
+- **Cloud & Ops**: AWS (Lambda, ECS, S3, DynamoDB, Kinesis), Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, Grafana, Prometheus.
+- **AI/ML**: PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, ONNX, OpenCV.
 
-- **Languages**: Java, Python, C++, TypeScript, Go, SQL  
-- **Backend**: Spring Boot, Nest.js, Express.js, FastAPI, Flask  
-- **Cloud & Systems**: AWS (Lambda, ECS, S3, DynamoDB), GCP, Kubernetes, Docker, CI/CD (GitHub Actions, Jenkins), Grafana, Prometheus  
-- **AI/ML**: PyTorch, HuggingFace, Transformers (BERT, GPT, Swin), YOLOv5, Mask R-CNN, TensorFlow Serving, ONNX, OpenCV  
-- **Data & Analysis**: Pandas, NumPy, XGBoost, Apache Spark, Databricks  
-- **Databases & APIs**: PostgreSQL, Redis, MongoDB, MySQL, REST, GraphQL, WebSockets
+<details>
+  <summary><b>Technical Stack</b></summary>
 
----
+  <p align="left">
+    <a href="https://github.com/anuraghazra/github-readme-stats">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=QHarshil&layout=compact&langs_count=6&theme=transparent&hide_title=true" alt="Top Languages" height="150" />
+    </a>
+  </p>
 
-## 📊 Language Usage Tracker
+  <!-- Optional: add streak stats by uncommenting below -->
+  <!--
+  <p>
+    <a href="https://git.io/streak-stats">
+      <img src="https://streak-stats.demolab.com/?user=QHarshil&theme=transparent&hide_longest_streak=true" alt="GitHub Streak" height="150" />
+    </a>
+  </p>
+  -->
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=QHarshil&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+</details>
+
+## Let's Connect
+Open to backend, system design, distributed systems, ML infra, and product-centric roles at scale.
