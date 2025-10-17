@@ -21,10 +21,10 @@ Building resilient backend platforms and AI-powered products that balance perfor
 - **Cost vs. performance trade-offs** informed by observability and load tests.
 
 ## Featured Projects
-- **Full-Stack CRM - Event and Donor Management** | `NestJS`, `React`, `TypeORM`, `Socket.IO`, `PostgreSQL`: Donor operations suite with multi-criteria matching, real-time fundraising dashboards, role-aware access, and compliance-grade audit logging that trimmed vetting time **40%**.
-- **Commerce Services** | `Spring Boot`, `Kafka`, `Redis`, `Kubernetes`: Transactional microservices with outbox/SAGA patterns; checkout **p95 under 300 ms** and **zero-downtime** deploys across REST and gRPC.
-- **FeatureFlagX** | `Java`, `Spring Boot`, `PostgreSQL`, `Redis`: Flag evaluations **under 10 ms** with SDKs for Java/Python/TypeScript; rollout targeting, kill switches, audit trails, health and metrics endpoints.
-- **TaskRouterX** | `FastAPI`, `Python`, `SQLite`: **Cost-aware task routing** with pluggable schedulers, live dashboard, synthetic load generator, and pytest coverage.
+- **[Full-Stack CRM - Event and Donor Management](https://github.com/QHarshil/Full-Stack-CRM---Events-and-Donor-Management)** | `NestJS`, `React`, `TypeORM`, `Socket.IO`, `PostgreSQL`: Donor operations suite with multi-criteria matching, real-time fundraising dashboards, role-aware access, and compliance-grade audit logging that trimmed vetting time **40%**.
+- **[Commerce Services](https://github.com/QHarshil/Commerce-Services)** | `Spring Boot`, `Kafka`, `Redis`, `Kubernetes`: Transactional microservices with outbox/SAGA patterns; checkout **p95 under 300 ms** and **zero-downtime** deploys across REST and gRPC.
+- **[FeatureFlagX](https://github.com/QHarshil/FeatureFlagX)** | `Java`, `Spring Boot`, `PostgreSQL`, `Redis`: Flag evaluations **under 10 ms** with SDKs for Java/Python/TypeScript; rollout targeting, kill switches, audit trails, health and metrics endpoints.
+- **[TaskRouterX](https://github.com/QHarshil/TaskRouterX)** | `FastAPI`, `Python`, `SQLite`: **Cost-aware task routing** with pluggable schedulers, live dashboard, synthetic load generator, and pytest coverage.
 
 ## Wins & Highlights
 - **IMC Prosperity 2 Global Trading Competition** - Ranked **87/13,500**; **12th in Canada**.
