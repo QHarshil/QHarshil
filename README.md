@@ -25,6 +25,7 @@ Building resilient backend platforms and AI-powered products that balance perfor
 - **[Commerce Services](https://github.com/QHarshil/Commerce-Services)** | `Spring Boot`, `Kafka`, `Redis`, `Kubernetes`: Transactional microservices with outbox/SAGA patterns; checkout **p95 under 300 ms** and **zero-downtime** deploys across REST and gRPC.
 - **[FeatureFlagX](https://github.com/QHarshil/FeatureFlagX)** | `Java`, `Spring Boot`, `PostgreSQL`, `Redis`: Flag evaluations **under 10 ms** with SDKs for Java/Python/TypeScript; rollout targeting, kill switches, audit trails, health and metrics endpoints.
 - **[TaskRouterX](https://github.com/QHarshil/TaskRouterX)** | `FastAPI`, `Python`, `SQLite`: **Cost-aware task routing** with pluggable schedulers, live dashboard, synthetic load generator, and pytest coverage.
+- **[FaceFit AR](https://github.com/QHarshil/FaceFit-AR-Based-Virtual-Accessory-Try-On)** | `Computer Vision`, `Three.js`, `React.js`, `Node.js`: Browser-based eyewear try-on. It integrates MediaPipe Face Mesh for dense 3D facial landmark extraction with a Three.js rendering pipeline that places GLB eyewear models directly onto the user video stream.
 
 ## Wins & Highlights
 - **IMC Prosperity 2 Global Trading Competition** - Ranked **87/13,500**; **12th in Canada**.
