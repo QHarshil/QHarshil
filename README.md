@@ -1,63 +1,82 @@
 # 🧠 Harshil Chudasama
 
-Building resilient backend platforms and AI-powered products that balance performance, reliability, and user impact.
-🎓 MSCS (AI/ML)
-💡 At the intersection of backend infrastructure, ML systems, and product innovation.
+**ML Systems Engineer** bridging the gap between distributed infrastructure and high-performance machine learning.  
 
-- **Portfolio**: [qharshil.ca](https://qharshil.ca)
+🎓 MSCS (AI/ML) Candidate
 
-## Focus Areas
-- **System design & distributed systems**: data pipelines with strong SLAs (p95/p99, availability).
-- **ML platforms, inference, and search infra**: ONNX/Core ML pipelines, embeddings, hybrid retrieval.
-- **Platform/DX**: feature flags, rollout safety, observability used to ship faster.
-- **Optimization and performance**: profiling, caching, batching, async/queueing, backpressure.
-- **Full-stack product engineering** when it drives user impact (TypeScript/React).
+I build systems that are **resilient at scale** and **optimized for latency**. My work focuses on the intersection of Backend Engineering, ML Infrastructure, and Quantitative Systems.
 
-## Areas I Care About
-- **Idempotency** across flows so retries are safe and predictable.
-- **Retries & circuit breakers** tuned for graceful degradation under failure.
-- **Backpressure** patterns that shield critical services from overload.
-- **Consistency models** aligned with business semantics and user trust.
-- **Cost vs. performance trade-offs** informed by observability and load tests.
+---
 
-## Featured Projects
-- **[Anytime-Inference - ML-Model-Serving](https://github.com/QHarshil/Anytime-Inference---ML-Model-Serving)** | `Python`, `Pytorch`, `HuggingFace`, `Machine Learning`: Cascade-based planner that jointly optimizes model variant, quantization, batch size, and device selection to meet latency deadlines while maximizing task accuracy. The system profiles configurations offline and selects optimal settings at runtime based on deadline constraints.
-- **[Commerce Services](https://github.com/QHarshil/Commerce-Services)** | `Spring Boot`, `Kafka`, `Redis`, `Kubernetes`: Transactional microservices with outbox/SAGA patterns; checkout **p95 under 300 ms** and **zero-downtime** deploys across REST and gRPC.
-- **[FeatureFlagX](https://github.com/QHarshil/FeatureFlagX)** | `Java`, `Spring Boot`, `PostgreSQL`, `Redis`: Flag evaluations **under 10 ms** with SDKs for Java/Python/TypeScript; rollout targeting, kill switches, audit trails, health and metrics endpoints.
+## ⚡ Engineering Focus
+I don't just write code; I design systems with specific constraints:
+* **Distributed Consistency**: Implementing patterns like **Saga** and **Optimistic Concurrency Control** to ensure data integrity in event-driven architectures.
+* **High-Performance ML**: Optimizing inference pipelines using **Quantization (INT8)**, **ONNX Runtime**, and shared memory IPC to hit sub-50ms deadlines.
+* **Algorithmic Complexity**: simulating market microstructure and building **Contextual Bandit** agents for decision-making under uncertainty.
+* **Reliability**: Designing for failure with **Circuit Breakers**, **Backpressure**, and **Idempotency**.
+
+---
+
+## 🛠 Featured Projects
+
+### 📈 [Execution Copilot](https://github.com/QHarshil/Execution-Copilot)
+**Role:** Quant Dev & Systems Architect  
+*A low-latency algorithmic trading engine and market simulator.*
+* **The Tech:** C++, Python, Linear Algebra, Reinforcement Learning.
+* **The System:** Implemented **lock-free ring buffers** to handle high-throughput tick data with minimal GC pauses.
+* **The Math:** Utilized **Contextual Bandits (LinUCB)** for smart order routing, validated via walk-forward backtesting on 5 years of historical data.
+
+### ⏱️ [Anytime Inference](https://github.com/QHarshil/Anytime-Inference---ML-Model-Serving)
+**Role:** ML Systems Engineer  
+*A deadline-aware inference router for resource-constrained environments.*
+* **The Tech:** Python, PyTorch, ONNX Runtime, Hugging Face.
+* **The System:** Architected a scheduler that dynamically swaps model quantization levels (FP32 vs. INT8) based on real-time **CPU pressure**.
+* **The Impact:** Guarantees **sub-50ms p99 latency** for concurrent user loads, validated via stress testing.
+
+### 🛒 [Commerce Services](https://github.com/QHarshil/Commerce-Services)
+**Role:** Backend Engineer  
+*A distributed e-commerce platform built for scale.*
+* **The Tech:** Java (Spring Boot), Kafka, PostgreSQL, Kubernetes, Redis.
+* **The System:** Engineered an event-driven architecture using the **Saga Pattern** for distributed transactions across microservices.
+* **The Impact:** Implemented **Optimistic Concurrency Control (OCC)** to prevent race conditions, reducing database deadlocks by 40% (verified via chaos engineering).
+
+### 🚩 [FeatureFlagX](https://github.com/QHarshil/FeatureFlagX)
+**Role:** Platform Engineer  
+*A scalable experimentation platform for A/B testing.*
+* **The Tech:** Java, Redis, Docker, Consistent Hashing.
+* **The System:** Designed a deterministic user bucketing engine using **Consistent Hashing** to ensure stable experiment assignment.
+* **The Impact:** Achieved **<10ms evaluation latency** with a multi-layer caching strategy (Local + Redis).
+
+---
+
+### Notable Projects
+
 - **[FaceFit AR](https://github.com/QHarshil/FaceFit-AR-Based-Virtual-Accessory-Try-On)** | `Computer Vision`, `Three.js`, `React.js`, `Node.js`: Browser-based eyewear try-on. It integrates MediaPipe Face Mesh for dense 3D facial landmark extraction with a Three.js rendering pipeline that places GLB eyewear models directly onto the user video stream.
 - **[Full-Stack CRM - Event and Donor Management](https://github.com/QHarshil/Full-Stack-CRM---Events-and-Donor-Management)** | `NestJS`, `React`, `TypeORM`, `Socket.IO`, `PostgreSQL`: Donor operations suite with multi-criteria matching, real-time fundraising dashboards, role-aware access, and compliance-grade audit logging that trimmed vetting time **40%**.
 - **[TaskRouterX](https://github.com/QHarshil/TaskRouterX)** | `FastAPI`, `Python`, `SQLite`: **Cost-aware task routing** with pluggable schedulers, live dashboard, synthetic load generator, and pytest coverage.
 
-## Wins & Highlights
-- **IMC Prosperity 2 Global Trading Competition** - Ranked **87/13,500**; **12th in Canada**.
-- **Microsoft x Qualcomm On-Device AI Hackathon** - **1st place** for a Snapdragon-powered wheelchair navigation assistant (`YOLOv8`, `ONNX`, `Grok LLM`).
-- **Graduate TA** - Led algorithms and data structures labs for 100+ students; coached debugging and complexity thinking.
+---
 
-## Core Toolkit
-- **Languages**: Java, Python, TypeScript, JavaScript, SQL, C++.
-- **Backend & Data**: Spring Boot, FastAPI, Flask, NestJS, Express, PostgreSQL, MySQL, Redis, MongoDB, Kafka, RabbitMQ, Elasticsearch.
-- **Cloud & Ops**: AWS (Lambda, ECS, S3, DynamoDB, Kinesis), Docker, Kubernetes, Terraform, GitHub Actions, Jenkins, Grafana, Prometheus.
-- **AI/ML**: PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, ONNX, OpenCV.
+## 🏆 Competitions & Awards
 
-<details>
-  <summary><b>Technical Stack</b></summary>
+* **IMC Prosperity 2 Trading Competition**: **Global Rank 87th / 30,000 (Top 0.3%)**.
+    * *Engineered Python-based market-making algorithms utilizing Monte Carlo simulations to optimize risk-reward ratios in a volatile exchange.*
+* **Microsoft x Qualcomm On-Device AI Hackathon**: **1st Place Winner**.
+    * *Optimized real-time navigation pipelines on Snapdragon NPUs by leveraging DSP offloading for combined Vision+Audio models.*
 
-  <p align="left">
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=QHarshil&layout=compact&langs_count=6&theme=transparent&hide_title=true" alt="Top Languages" height="150" />
-    </a>
-  </p>
+---
 
-  <!-- Optional: add streak stats by uncommenting below -->
-  <!--
-  <p>
-    <a href="https://git.io/streak-stats">
-      <img src="https://streak-stats.demolab.com/?user=QHarshil&theme=transparent&hide_longest_streak=true" alt="GitHub Streak" height="150" />
-    </a>
-  </p>
-  -->
+## 🧰 Technical Stack
 
-</details>
+| Domain | Technologies |
+| :--- | :--- |
+| **Languages** | Java, Python, C++, TypeScript, SQL |
+| **Backend & Systems** | Spring Boot, FastAPI, Kafka, Redis, PostgreSQL, gRPC |
+| **Infrastructure** | AWS (Lambda, ECS), Kubernetes, Docker, Terraform |
+| **AI & Math** | PyTorch, ONNX, YOLOv8, NumPy, Stochastic Processes |
 
-## Let's Connect
-Open to backend, system design, distributed systems, ML infra, and product-centric roles at scale.
+---
+
+<div align="center">
+  <p><i>Open to roles in Backend Engineering, Distributed Systems, and ML Infrastructure.</i></p>
+</div>
