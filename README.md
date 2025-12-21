@@ -55,9 +55,10 @@ I’m not trying to silo myself - I’m open to **general SWE roles** (backend, 
 | --- | --- |
 | **Languages** | Java, Python, C++, TypeScript, SQL |
 | **Backend** | Spring Boot, FastAPI, REST, gRPC |
-| **Data / Streaming** | PostgreSQL, Redis, Kafka, Elasticsearch |
+| **Data / Search** | PostgreSQL, Redis, Kafka, Elasticsearch (Vector Search) |
 | **Infra** | Docker, Kubernetes, Terraform, AWS (Lambda/ECS) |
-| **ML / Math** | PyTorch, ONNX Runtime, NumPy |
+| **ML / LLM** | PyTorch, Hugging Face, ONNX Runtime, NumPy, TensorFlow |
+| **Computer Vision** | OpenCV, MediaPipe, YOLOv8, Three.js (AR rendering) |
 | **Quality / Ops** | Prometheus, load testing (k6), CI/CD (GitHub Actions) |
 
 ---
