@@ -1,7 +1,7 @@
 # 🧠 Harshil Chudasama
 
 **Software Engineer** with a strong bias toward **systems that ship**: scalable backends, distributed services, and ML-powered products.  
-I’m not trying to silo myself — I’m open to **general SWE roles** (backend, full-stack, platform, infra), with a **current focus** on search/ranking + performance + reliability.
+I’m not trying to silo myself - I’m open to **general SWE roles** (backend, full-stack, platform, infra), with a **current focus** on search/ranking + performance + reliability.
 
 🎓 MSCS (AI/ML) Candidate
 
@@ -42,9 +42,9 @@ I’m not trying to silo myself — I’m open to **general SWE roles** (backend
 ---
 
 ## 🏆 Competitions & Awards
-- **IMC Prosperity 2 Trading Competition** — *Global Rank 87 / 30,000 (Top 0.3%)*  
+- **IMC Prosperity 2 Trading Competition** — *Global Rank 87 / 13,500 (Top 1%)*  
   Built Python-based market-making + simulation tooling to optimize risk/reward under volatility.
-- **Microsoft x Qualcomm On-Device AI Hackathon** — *1st Place*  
+- **Microsoft x Qualcomm On-Device AI Hackathon** - *1st Place*  
   Optimized real-time pipelines on Snapdragon NPUs (DSP offloading / performance tuning).
 
 ---
