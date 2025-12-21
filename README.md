@@ -7,7 +7,7 @@ I’m not trying to silo myself — I’m open to **general SWE roles** (backend
 
 ---
 
-## 🔭 Current Focus (without limiting my options)
+## 🔭 Current Focus
 - **Search & Ranking:** vector retrieval, hybrid scoring (lexical + vector), eval loops (MRR/NDCG)
 - **Backend & Distributed Systems:** event-driven services, data modeling, caching, correctness under concurrency
 - **Reliability & Performance:** metrics, health checks, fallbacks, load testing, tail-latency awareness
