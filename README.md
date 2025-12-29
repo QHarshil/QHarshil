@@ -63,15 +63,6 @@ I’m not trying to silo myself - I’m open to **general SWE roles** (backend, 
 
 ---
 
-## 📊 Tech Stack
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=QHarshil&layout=compact&langs_count=10&theme=tokyonight" />
-</p>
-
-
----
-
 <div align="center">
   <p><i>Open to New Grad SWE roles across Backend, Full-Stack, Platform/Infra, and ML-Adjacent Engineering.</i></p>
 </div>
