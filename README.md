@@ -1,4 +1,4 @@
-# Harshil Chudasama
+# Harshil
 
 Full-stack engineer with depth in backend systems, ML infrastructure, and distributed applications. I build end-to-end: React interfaces, Python/Java services, and the infrastructure underneath: microservices, search systems, model serving, and real-time data pipelines.
 
