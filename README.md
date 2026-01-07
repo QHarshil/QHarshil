@@ -1,68 +1,38 @@
-# 🧠 Harshil Chudasama
+# Harshil Chudasama
 
-**Software Engineer** with a strong bias toward **systems that ship**: scalable backends, distributed services, and ML-powered products.  
-I’m not trying to silo myself - I’m open to **general SWE roles** (backend, full-stack, platform, infra), with a **current focus** on search/ranking + performance + reliability.
+Full-stack engineer with depth in backend systems, ML infrastructure, and distributed applications. I build end-to-end: React interfaces, Python/Java services, and the infrastructure underneath: microservices, search systems, model serving, and real-time data pipelines.
 
-🎓 MSCS (AI/ML) Candidate
+MSCS (AI/ML) | Open to SWE roles (Backend, Full-Stack, MLE, Platform, ML Systems)
 
----
+## Projects
 
-## 🔭 Current Focus
-- **Search & Ranking:** vector retrieval, hybrid scoring (lexical + vector), eval loops (MRR/NDCG)
-- **Backend & Distributed Systems:** event-driven services, data modeling, caching, correctness under concurrency
-- **Reliability & Performance:** metrics, health checks, fallbacks, load testing, tail-latency awareness
+**[SemanticSearch-Java](https://github.com/QHarshil/SemanticSearch-Java)** — Hybrid search service (BM25 + vector) with Elasticsearch, eval harness (MRR/NDCG@k), Spring Boot
 
----
+**[Execution Copilot](https://github.com/QHarshil/Execution-Copilot)** — Low-latency trading engine with limit order book simulation, C++/Python
 
-## ⭐ Featured Projects
+**[Anytime Inference](https://github.com/QHarshil/Anytime-Inference---ML-Model-Serving)** — Deadline-aware ML inference router, dynamic quantization switching, sub-50ms p99
 
-### 🔎 [SemanticSearch-Java](https://github.com/QHarshil/SemanticSearch-Java)
-*Semantic search microservice with hybrid retrieval + evaluation tooling.*
-- **Java / Spring Boot** service using **Elasticsearch vector search**, **Postgres**, and **Redis**
-- Hybrid scoring (vector + lexical + metadata boosts) with experiment-friendly scoring profiles
-- Built-in eval harness exporting **MRR / NDCG@k**, plus **Prometheus metrics** + health endpoints
-- Docker-compose dev stack + demo/stub modes for repeatable testing
+**[Commerce Services](https://github.com/QHarshil/Commerce-Services)** — Distributed e-commerce backend with real-time dashboard, Kafka, Saga pattern, Kubernetes
 
-### 📈 [Execution Copilot](https://github.com/QHarshil/Execution-Copilot)
-*Low-latency trading engine + market simulator.*
-- C++ / Python systems work, tick-data simulation, and research loop for decision policies + backtesting
+**[FeatureFlagX](https://github.com/QHarshil/FeatureFlagX)** — Feature flag service with Redis caching and PostgreSQL fallback
 
-### ⏱️ [Anytime Inference](https://github.com/QHarshil/Anytime-Inference---ML-Model-Serving)
-*Deadline-aware inference router.*
-- Routes requests across model variants based on runtime signals (load / latency constraints)
+**[TaskRouterX](https://github.com/QHarshil/TaskRouterX)** — Cost-aware task scheduler with pluggable algorithms (FIFO/Priority/Min-Cost)
 
-### 🛒 [Commerce Services](https://github.com/QHarshil/Commerce-Services)
-*Distributed e-commerce microservices platform.*
-- Event-driven architecture with Kafka; coordination patterns for consistency; containerized deployment
+**[QuickVerify SDK](https://github.com/QHarshil/quickverify-sdk)** — React Native SDK for biometric auth and document capture, native iOS (Swift) and Android (Kotlin) bridges
 
-### 🚩 [FeatureFlagX](https://github.com/QHarshil/FeatureFlagX)
-*Experimentation + feature rollout platform.*
-- Deterministic user bucketing via consistent hashing + caching for fast evaluations
+## Competitions
 
----
+**IMC Prosperity 2** — Rank 87 / 13,500 (top 0.6%), Python market-making and trading bot
 
-## 🏆 Competitions & Awards
-- **IMC Prosperity 2 Trading Competition** — *Global Rank 87 / 13,500 (Top 1%)*  
-  Built Python-based market-making + simulation tooling to optimize risk/reward under volatility.
-- **Microsoft x Qualcomm On-Device AI Hackathon** - *1st Place*  
-  Optimized real-time pipelines on Snapdragon NPUs (DSP offloading / performance tuning).
+**Microsoft × Qualcomm Hackathon** — 1st place, real-time on-device AI navigation system for wheelchair users (Snapdragon NPU)
 
----
+## Stack
 
-## 🧰 Tech Stack
-
-| Area | Tools |
-| --- | --- |
-| **Languages** | Java, Python, C++, TypeScript, SQL |
+| | |
+|---|---|
+| **Languages** | Java, Python, C++, TypeScript, Swift, Kotlin |
 | **Backend** | Spring Boot, FastAPI, REST, gRPC |
-| **Data / Search** | PostgreSQL, Redis, Kafka, Elasticsearch (Vector Search) |
-| **Infra** | Docker, Kubernetes, Terraform, AWS (Lambda/ECS) |
-| **ML / LLM** | PyTorch, Hugging Face, ONNX Runtime, NumPy, TensorFlow |
-| **Computer Vision** | OpenCV, MediaPipe, YOLOv8, Three.js (AR rendering) |
-| **Quality / Ops** | Prometheus, load testing (k6), CI/CD (GitHub Actions) |
-
----
-
-<div align="center">
-  <p><i>Open to New Grad SWE roles across Backend, Full-Stack, Platform/Infra, and ML-Adjacent Engineering.</i></p>
-</div>
+| **Frontend** | React, React Native |
+| **Data** | PostgreSQL, Redis, Kafka, Elasticsearch |
+| **Infra** | Docker, Kubernetes, AWS |
+| **ML** | PyTorch, ONNX, Transformers, YOLOv8 |
