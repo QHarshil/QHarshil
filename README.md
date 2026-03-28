@@ -1,6 +1,6 @@
 # Harshil
 
-MSc Computer Science. I build AI-powered products and the backend systems that serve them.
+MSc Computer Science. Fullstack software engineer. I build AI-powered products and the backend systems that serve them. My frontend/portfolio can be found at: www.harshilc.com
 
 ## Competitions
 
@@ -10,7 +10,7 @@ MSc Computer Science. I build AI-powered products and the backend systems that s
 Monte Carlo simulations and dynamic inventory management.
 
 ## Stack
-**Languages** · Python · Java · C/C++ · TypeScript · SQL
+**Languages** · Python · Java · C/C++ · JavaScript · TypeScript · SQL · Go · Scala
 
 **ML/AI** · PyTorch · scikit-learn · ONNX Runtime · Transformers · YOLOv8 · Whisper · Elasticsearch (kNN/BM25) · RAG
 
