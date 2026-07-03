@@ -1,6 +1,6 @@
 # Harshil
 
-MSc Computer Science. Fullstack software engineer. I build AI-powered products and the backend systems that serve them. My frontend/portfolio can be found at: www.harshilc.com
+MSc Computer Science. Fullstack software engineer. My portfolio can be found at: www.harshilc.com
 
 ## Competitions
 
