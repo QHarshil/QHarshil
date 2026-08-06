@@ -18,7 +18,7 @@ embedding providers.
 
 ## ML serving & inference
 
-**[Anytime Inference Planner](https://github.com/QHarshil/Anytime-Inference-Planner)**
+**[Anytime Inference Planner](https://github.com/QHarshil/Anytime-Inference-ML-Model-Serving)**
 Latency-bounded serving. Routes each request to an FP32 or INT8 ONNX variant by live CPU
 load with M/M/1 admission control, cutting compute ~45% vs FP32-only.
 
