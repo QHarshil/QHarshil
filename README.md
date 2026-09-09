@@ -1,6 +1,6 @@
 # Harshil Chudasama
 
-Full-Stack Software engineer working on backend systems, search, and ML infrastructure.
+Software engineer focused on backend systems, search, and ML infrastructure.
 
 Open-source contributor to [vLLM / GuideLLM](https://github.com/vllm-project/guidellm) and [OpenSearch k-NN](https://github.com/opensearch-project/k-NN).
 Creator of [adduce](https://github.com/QHarshil/adduce).
