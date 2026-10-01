@@ -1,24 +1,42 @@
-# Harshil Chudasama
+# Harshil
 
-Software engineer building backend, search, and ML systems, with a focus on performance, reliability, and infrastructure.
+**Applied AI · ML Systems · Backend · Search · Infrastructure**
 
-Open-source contributor to [vLLM / GuideLLM](https://github.com/vllm-project/guidellm), [OpenSearch k-NN](https://github.com/opensearch-project/k-NN), [Entity Framework Core](https://github.com/dotnet/efcore), and PyTorch.  
-Creator of [adduce](https://github.com/QHarshil/adduce), a static-analysis tool for checking and validating claims across Python repositories.
+I build production software across AI applications, inference & model serving, search/ranking, and backend systems.
 
-## Selected work
+`Python` `C++` `Go` `Java` `TypeScript` `SQL`
 
-- [Anytime Inference Planner](https://github.com/QHarshil/Anytime-Inference-ML-Model-Serving)  
-  An ML inference server that adapts how models are run based on system load and request deadlines, improving the number of requests completed on time by 6.5× under high load.
+### Open source
 
-- [SemanticSearch](https://github.com/QHarshil/SemanticSearch)  
-  A search system that combines semantic similarity with traditional keyword search to return more relevant results while supporting filters, caching, and ranking evaluation.
+Contributing to:
 
-- [Execution Copilot](https://github.com/QHarshil/Execution-Copilot)  
-  A market execution simulator for testing and comparing trading strategies across different venues, fees, and latency conditions.
+[**vLLM**](https://github.com/vllm-project/vllm) ·
+[**GuideLLM**](https://github.com/vllm-project/guidellm) ·
+[**OpenSearch k-NN**](https://github.com/opensearch-project/k-NN) ·
+[**Kubernetes**](https://github.com/kubernetes/kubernetes) ·
+[**EF Core**](https://github.com/dotnet/efcore) ·
+[**PyTorch**](https://github.com/pytorch/pytorch)
 
-- [CineMatch](https://github.com/QHarshil/CineMatch)  
-  A movie recommendation system that first retrieves likely matches and then reranks them based on learned relevance, improving ranking quality over a popularity baseline.
+Recent work includes inference correctness, benchmarking, vector search, Kubernetes API performance, and query translation.
 
-## Links
+### Building
 
-[harshilc.com](https://www.harshilc.com)
+| Project | What it is |
+|---|---|
+| [**adduce**](https://github.com/QHarshil/adduce) | ML-assisted analysis for tracing and validating research claims against code, configs, data, dependencies, and results |
+| [**CineMatch**](https://github.com/QHarshil/CineMatch) | Grounded AI recommendation agent over hybrid retrieval and learned ranking |
+| [**Anytime Inference Planner**](https://github.com/QHarshil/Anytime-Inference-ML-Model-Serving) | Deadline-aware ML serving with continuous batching and adaptive admission |
+| [**SemanticSearch**](https://github.com/QHarshil/SemanticSearch) | Hybrid semantic + keyword retrieval with filtering, caching, and ranking evaluation |
+| [**Execution Copilot**](https://github.com/QHarshil/Execution-Copilot) | Market execution simulator for testing execution strategies under different latency and venue conditions |
+
+<details>
+<summary><strong>Stack</strong></summary>
+
+<br>
+
+**Languages:** Python, C++, Go, Java, TypeScript, SQL  
+**AI / ML:** PyTorch, ONNX Runtime, Transformers, RAG, tool calling, LightGBM  
+**Data / Search:** PostgreSQL, pgvector, OpenSearch, Elasticsearch, Redis, HNSW  
+**Systems:** AWS, GCP, Docker, Kubernetes, gRPC, Kafka
+
+</details>
