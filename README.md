@@ -23,7 +23,6 @@ Recent work includes inference correctness, benchmarking, vector search, Kuberne
 
 | Project | What it is |
 |---|---|
-| [**adduce**](https://github.com/QHarshil/adduce) | ML-assisted analysis for tracing and validating research claims against code, configs, data, dependencies, and results |
 | [**CineMatch**](https://github.com/QHarshil/CineMatch) | Grounded AI recommendation agent over hybrid retrieval and learned ranking |
 | [**Anytime Inference Planner**](https://github.com/QHarshil/Anytime-Inference-ML-Model-Serving) | Deadline-aware ML serving with continuous batching and adaptive admission |
 | [**SemanticSearch**](https://github.com/QHarshil/SemanticSearch) | Hybrid semantic + keyword retrieval with filtering, caching, and ranking evaluation |
