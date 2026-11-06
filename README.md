@@ -2,7 +2,7 @@
 
 **Applied AI · ML Systems · Backend · Search · Infrastructure**
 
-I build production software across AI applications, inference & model serving, search/ranking, and backend systems.
+AI applications, inference & model serving, search/ranking, and backend systems.
 
 `Python` `C++` `Go` `Java` `TypeScript` `SQL`
 
